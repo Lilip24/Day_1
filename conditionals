@@ -1,0 +1,66 @@
+import UIKit
+
+//Intention: This playground tests different comparison operators
+// <, >, <=, >=, ==, !=, &&, ||
+
+6<7
+18<10
+
+12<=6 //false
+5<=5 //true
+
+16>=7 //true
+11>=27 //false
+
+//test the == operator
+//use == to check if two things are equal
+12 == 10+2 //true
+
+// test the != operator
+12 != 10+2 //false
+
+
+
+// check what && does ---> AND
+12 == 10+2 //true
+12 == 6+6 //true
+12 == 10+2 && 12 == 6+6 //true
+
+12 == 10+2 && 12 == 10+10 //false
+// the && checks if both sides are true
+
+//check what || does ---> OR
+12 == 10+2 //true
+12 == 10+10 //false
+12 == 10+2 || 12 == 10+10 //true
+
+1+2==1 || 1+2==2// false
+
+
+
+//declaring an if statement
+
+var dogAge = 12
+
+if dogAge < 2 {  //checking if dogAge is less than 2, which is true
+    print ("You are a puppy 🐶")  //if the condition check is true, then do this code
+}
+
+else if dogAge < 6 {
+    print ("You are an average doggo!")
+}
+    
+    else {
+    print ("You are elderly")
+}
+
+// var favoriteFood = "Sushi"
+
+// else if favoriteFood == "Ice cream" {
+   // print ("That's boring!")
+//}
+
+//else {
+    //print ("Nice")
+//}
+//*
